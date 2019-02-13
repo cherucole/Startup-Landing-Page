@@ -1,0 +1,9 @@
+body {
+    height: 3468px;
+    background: #;
+    background: -webkit-linear-gradient(-236.12304494193deg, rgba(48, 207, 208, 255) 0%, rgba(51, 8, 103, 196) 57%, rgba(48, 207, 208, 255) 100%);
+    background: -o-linear-gradient(-236.12304494193deg, rgba(48, 207, 208, 255) 0%, rgba(51, 8, 103, 196) 57%, rgba(48, 207, 208, 255) 100%);
+    background: -moz-linear-gradient(-236.12304494193deg, rgba(48, 207, 208, 255) 0%, rgba(51, 8, 103, 196) 57%, rgba(48, 207, 208, 255) 100%);
+    background: -ms-linear-gradient(-236.12304494193deg, rgba(48, 207, 208, 255) 0%, rgba(51, 8, 103, 196) 57%, rgba(48, 207, 208, 255) 100%);
+    background: linear-gradient(-236.12304494193deg, rgba(48, 207, 208, 255) 0%, rgba(51, 8, 103, 196) 57%, rgba(48, 207, 208, 255) 100%);
+}
