@@ -57,6 +57,9 @@ nav a {
 
 #weblogo {
     float: left !important;
+    font-weight: 500;
+    font-size: 28px;
+
 }
 
 .BtnContact {
@@ -71,6 +74,7 @@ nav a {
     line-height: 40px;
     text-align: center;
     margin-top: 30px;
+    float: left;
 }
 
 #login {
@@ -86,7 +90,7 @@ nav a {
     height: 45px;
     margin: 0 auto;
     padding: 0;
-    margin-right: 100px;
+    margin-right: 60px;
     display: inline-block;
     line-height: 45px;
     text-align: center;
@@ -104,11 +108,14 @@ nav a {
     line-height: 40px;
     text-align: center;
     margin-top: 30px;
+    margin-left: 5%;
+    /*you can use 30px then set media queries for small screen instead of percent*/
+    float: left;
 }
 
 #companylogo {
-    height: 20px;
-    width: 20px;
+    height: 24px;
+    width: 24px;
 }
 
 #arrow {
@@ -125,4 +132,14 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom right;
+}
+
+header h1 {
+    width: 50%;
+    margin: 1.3em 0 0 0;
+}
+
+header h3 {
+    width: 50%;
+    margin: 0.5em 0 0 0;
 }
