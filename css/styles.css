@@ -111,8 +111,18 @@ nav a {
     width: 20px;
 }
 
-
 #arrow {
-    height: 15px;
+    height: 20px;
     width: 20px;
+}
+
+/*----------------header-------------*/
+header {
+    height: 800px;
+    min-height: 800px;
+    padding: 0 5%;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right;
 }
