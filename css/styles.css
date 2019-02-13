@@ -27,11 +27,15 @@ html {
 
 h1 {
     font-size: 68px;
-    font-weight: 100;
+    font-weight: 700;
+    color: #ffffff;
 }
 
 h3 {
     font-size: 24px;
+    color: #ffffff;
+    font-weight: 100;
+
 }
 
 p {
@@ -39,7 +43,7 @@ p {
 }
 
 nav {
-    line-height: 130px;
+    line-height: 100px;
     text-align: right;
 }
 
@@ -47,7 +51,8 @@ nav a {
     text-decoration: none;
     color: #ffffff;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 200;
+    padding-right: 40px;
 }
 
 #weblogo {
@@ -66,6 +71,21 @@ nav a {
     line-height: 40px;
     text-align: center;
     margin-top: 30px;
+}
+
+
+#signup {
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    width: 160px;
+    height: 45px;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+    line-height: 45px;
+    text-align: center;
 }
 
 .BtnPortfolio {
