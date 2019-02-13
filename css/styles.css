@@ -232,7 +232,7 @@ header h3 {
 }
 
 .BtnPortfolio2 {
-    display: block;
+    /* display: block; */
     text-decoration: none;
     color: #ffffff;
     border: 2px solid #ffffff;
@@ -241,9 +241,14 @@ header h3 {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    margin-top: 30px;
     font-size: 22px;
     font-weight: 400;
-    margin-left: 5%;
+    padding: 10px 25px;
+    /* margin-left: 5%; */
     /*you can use 30px then set media queries for small screen instead of percent*/
+}
+
+.wrapper {
+    margin-top: 20px;
+    text-align: center !important;
 }
