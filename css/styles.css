@@ -120,6 +120,8 @@ nav a {
 #companylogo {
     height: 24px;
     width: 24px;
+    /* vertical-align: middle;
+    padding-left: 4px; */
 }
 
 #arrow {
