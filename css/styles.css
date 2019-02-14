@@ -10,9 +10,6 @@
 }
 
 body {
-
-    /* height: 3468px; */
-    /* width: 100%; */
     background: #;
     background: -webkit-linear-gradient(-236.12304494193deg, rgba(48, 207, 208, 255) 0%, rgba(51, 8, 103, 196) 57%, rgba(48, 207, 208, 255) 100%);
     background: -o-linear-gradient(-236.12304494193deg, rgba(48, 207, 208, 255) 0%, rgba(51, 8, 103, 196) 57%, rgba(48, 207, 208, 255) 100%);
@@ -35,7 +32,6 @@ h3 {
     font-size: 1.8vw;
     color: #ffffff;
     font-weight: 100;
-
 }
 
 p {
@@ -60,7 +56,6 @@ nav a {
     float: left !important;
     font-weight: 500;
     font-size: 2.5vw;
-
 }
 
 .BtnContact {
@@ -154,18 +149,14 @@ header h3 {
 .designs {
     padding: 0 5%;
     margin-top: 7em;
-    /* height: 30em; */
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* height: 100vh; */
     flex-wrap: no-wrap;
-
 }
 
 .designs div {
     width: 50%;
-    /* height: 200px; */
 }
 
 #templates img {
@@ -176,7 +167,6 @@ header h3 {
 #description1 {
     float: left;
     padding-left: 60px;
-    /* width: 50% !important; */
 }
 
 
@@ -204,11 +194,9 @@ header h3 {
 .responsive {
     padding: 0 5%;
     margin: 7em 0 2em 0;
-    /* height: 30em; */
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* height: 100vh; */
     flex-wrap: no-wrap;
 }
 
@@ -250,7 +238,6 @@ header h3 {
 }
 
 .BtnPortfolio2 {
-    /* display: block; */
     text-decoration: none;
     color: #ffffff;
     border: 2px solid #ffffff;
@@ -262,7 +249,6 @@ header h3 {
     font-size: 22px;
     font-weight: 400;
     padding: 10px 25px;
-    /* margin-left: 5%; */
     /*you can use 30px then set media queries for small screen instead of percent*/
 }
 
@@ -362,7 +348,7 @@ footer p,
     margin-left: 30px;
 }
 
-/*===========responsive=========*/
+/*===========responsive tablet=========*/
 @media only screen and (max-width: 1000px) {
     header {
         height: 800px;
@@ -406,7 +392,6 @@ footer p,
     }
 
     #description1 h5 {
-        /* margin-top: 50px; */
         font-size: 15px;
         font-weight: 100;
         color: #ffffff;
@@ -438,13 +423,10 @@ footer p,
     #devices {
         width: 45%;
         float: left;
-        /* padding-left: 60px; */
-
     }
 
     #description2 {
         float: left;
-        /* margin-left: 20px; */
         width: 45% !important;
     }
 
