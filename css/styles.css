@@ -334,3 +334,114 @@ footer p,
     color: #ffffff;
     margin-left: 30px;
 }
+
+/*===========responsive=========*/
+@media only screen and (max-width: 1000px) {
+    header {
+        height: 800px;
+        min-height: 800px;
+        padding: 0 5%;
+        background-image: url("../img/background.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom right;
+    }
+
+    header h1 {
+        width: 60%;
+        font-size: 60px;
+        font-weight: 700;
+        margin-top: 1.8em;
+    }
+
+    header h3 {
+        width: 60%;
+    }
+
+    .designs {
+        margin-top: 1em;
+    }
+
+    #templates img {
+        margin-top: 35px;
+        width: 45%;
+        float: left;
+    }
+
+    #description1 {
+        float: left;
+        padding-left: 10%;
+        width: 45% !important;
+    }
+
+    #description1 h5 {
+        /* margin-top: 50px; */
+        font-size: 15px;
+        font-weight: 100;
+        color: #ffffff;
+    }
+
+    #description1 h1 {
+        margin-top: 20px;
+        font-size: 35px;
+        font-weight: 500;
+        color: #ffffff;
+    }
+
+    #description1 h3 {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 100;
+        color: #ffffff;
+    }
+
+
+    .responsive {
+        margin-top: 1em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 100vh;
+        flex-wrap: no-wrap;
+    }
+
+    #devices {
+        width: 45%;
+        float: left;
+        /* padding-left: 60px; */
+
+    }
+
+    #description2 {
+        float: left;
+        /* margin-left: 20px; */
+        width: 45% !important;
+    }
+
+    #description2 h5 {
+        font-size: 15px;
+        font-weight: 100;
+        color: #ffffff;
+    }
+
+    #description2 h1 {
+        margin-top: 20px;
+        font-size: 35px;
+        font-weight: 500;
+        color: #ffffff;
+    }
+
+    #description2 h3 {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 100;
+        color: #ffffff;
+    }
+
+    #devices img {
+        margin-top: 35px;
+        width: 100%;
+        float: left;
+    }
+
+}
