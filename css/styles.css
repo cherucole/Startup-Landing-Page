@@ -203,8 +203,13 @@ header h3 {
 
 .responsive {
     padding: 0 5%;
-    margin-top: 7em;
-    height: 30em;
+    margin: 7em 0 2em 0;
+    /* height: 30em; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* height: 100vh; */
+    flex-wrap: no-wrap;
 }
 
 #devices {
@@ -277,6 +282,14 @@ header h3 {
     border-radius: 5px;
     float: left;
     margin-left: 90px;
+}
+
+.card p,
+h4 {
+    color: white;
+    font-weight: 100;
+    text-align: left;
+    margin-top: 10px;
 }
 
 .card img {
@@ -368,11 +381,15 @@ footer p,
     }
 
     header h3 {
-        width: 60%;
+        width: 55%;
     }
 
     .designs {
         margin-top: 1em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: no-wrap;
     }
 
     #templates img {
@@ -410,11 +427,10 @@ footer p,
 
 
     .responsive {
-        margin-top: 7em;
+        margin: 7em 0 2em 0 !important;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        height: 100vh;
         flex-wrap: no-wrap;
     }
 
