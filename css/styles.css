@@ -348,6 +348,7 @@ footer {
 footer p,
 .footerPages {
     display: inline-block;
+    font-weight: 100;
 }
 
 .footerPages {
