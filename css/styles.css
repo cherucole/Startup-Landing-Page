@@ -156,38 +156,49 @@ header h3 {
 .designs {
     padding: 0 5%;
     margin-top: 7em;
-    height: 30em;
+    /* height: 30em; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    flex-wrap: no-wrap;
 
 }
 
+.designs div {
+    width: 50%;
+    /* height: 200px; */
+}
+
 #templates img {
-    width: 45%;
+    width: 95%;
     float: left;
 }
 
 #description1 {
     float: left;
     padding-left: 60px;
-    width: 50% !important;
+    /* width: 50% !important; */
 }
+
 
 #description1 h5 {
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 100;
     color: #ffffff;
 }
 
 #description1 h1 {
     margin-top: 30px;
-    font-size: 45px;
+    font-size: 3vw;
     font-weight: 700;
     color: #ffffff;
 }
 
 #description1 h3 {
     margin-top: 30px;
-    font-size: 25px;
+    font-size: 1.8vw;
     font-weight: 100;
     color: #ffffff;
 }
