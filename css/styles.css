@@ -11,7 +11,7 @@
 
 body {
 
-    height: 3468px;
+    /* height: 3468px; */
     /* width: 100%; */
     background: #;
     background: -webkit-linear-gradient(-236.12304494193deg, rgba(48, 207, 208, 255) 0%, rgba(51, 8, 103, 196) 57%, rgba(48, 207, 208, 255) 100%);
@@ -311,4 +311,26 @@ header h3 {
     font-size: 22px;
     font-weight: 400;
     padding: 10px 25px;
+}
+
+footer {
+    padding: 0 5%;
+    margin: 200px 0 40px 0;
+    color: #ffffff;
+}
+
+footer p,
+.footerPages {
+    display: inline-block;
+}
+
+.footerPages {
+    float: right;
+}
+
+.footerPages a {
+    text-decoration: none;
+    font-weight: 100;
+    color: #ffffff;
+    margin-left: 30px;
 }
