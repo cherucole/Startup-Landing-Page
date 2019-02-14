@@ -252,3 +252,63 @@ header h3 {
     margin-top: 20px;
     text-align: center !important;
 }
+
+.container {
+    padding: 2px 16px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 30%;
+    border-radius: 5px;
+    float: left;
+    margin-left: 90px;
+}
+
+.card img {
+    height: 20em;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.services {
+    padding: 0 5%;
+    margin-top: 7em;
+    height: 30em;
+    text-align: center !important;
+}
+
+.contactUs {
+    padding: 0 5%;
+    margin-top: 7em;
+    text-align: center !important;
+}
+
+.contactUs h3 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#mail {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+#Btnmail {
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 10px 25px;
+}
