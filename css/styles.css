@@ -455,5 +455,106 @@ footer p,
         width: 100%;
         float: left;
     }
+}
 
+/*-----------------Responsive Phone-----------------*/
+@media only screen and (max-width: 600px) {
+    header {
+        height: 800px;
+        min-height: 800px;
+        padding: 0 5%;
+        background-image: none;
+    }
+
+    header h1 {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 10vw;
+    }
+
+    header h3 {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 4.5vw;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footerPages {
+        visibility: hidden;
+    }
+
+    footerp,
+    .footerPages {
+        display: block;
+    }
+
+    .designs {
+        flex-direction: column;
+    }
+
+    .designs div {
+        width: 100%;
+
+    }
+
+    #templates img {
+        margin-top: 35px;
+        width: 80%;
+        padding-left: 10%;
+        /* float: left; */
+    }
+
+    #description1 {
+        float: left;
+        padding-left: 10%;
+        width: 80% !important;
+    }
+
+    .responsive {
+        flex-direction: column;
+    }
+
+    .responsive div {
+        width: 100%;
+
+    }
+
+    #devices img {
+        margin-top: 35px;
+        width: 80%;
+        padding-left: 10%;
+        /* float: left; */
+    }
+
+    #description2 {
+        float: left;
+        padding-left: 10%;
+        width: 80% !important;
+    }
+
+    .menu {
+        visibility: hidden;
+    }
+
+    nav a {
+        font-size: 4vw;
+        font-weight: 100;
+        margin-left: 5px;
+        padding: 2vw;
+    }
+
+    #weblogo {
+        float: left !important;
+        font-weight: 500;
+        font-size: 4vw;
+        padding: 0;
+    }
+
+    #companylogo {
+        height: 4vw;
+        width: 4vw;
+    }
 }
