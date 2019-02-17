@@ -459,6 +459,16 @@ footer p,
 
 /*-----------------Responsive Phone-----------------*/
 @media only screen and (max-width: 600px) {
+
+    body {
+        background: #;
+        background: -webkit-linear-gradient(53.442659424747deg , rgba(51,8,103,255) 0%, rgba(48,207,208,255) 43%, rgba(51,8,103,255) 100%);
+        background: -o-linear-gradient(53.442659424747deg , rgba(51,8,103,255) 0%, rgba(48,207,208,255) 43%, rgba(51,8,103,255) 100%);
+        background: -moz-linear-gradient(53.442659424747deg , rgba(51,8,103,255) 0%, rgba(48,207,208,255) 43%, rgba(51,8,103,255) 100%);
+        background: -ms-linear-gradient(53.442659424747deg , rgba(51,8,103,255) 0%, rgba(48,207,208,255) 43%, rgba(51,8,103,255) 100%);
+        background: linear-gradient(53.442659424747deg , rgba(51,8,103,255) 0%, rgba(48,207,208,255) 43%, rgba(51,8,103,255) 100%);
+    }
+
     header {
         height: 800px;
         min-height: 800px;
