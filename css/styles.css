@@ -263,6 +263,7 @@ header h3 {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid grey;
     transition: 0.3s;
     width: 20%;
     border-radius: 5px;
@@ -276,7 +277,6 @@ h4 {
     font-weight: 100;
     text-align: left;
     font-size: 20px;
-    /* margin-top: 10px; */
 }
 
 .card img {
@@ -286,6 +286,7 @@ h4 {
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border: 2px solid white;
 }
 
 .services {
