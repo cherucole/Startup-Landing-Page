@@ -49,8 +49,9 @@ nav a {
     font-size: 1.6vw;
     font-weight: 200;
     padding-right: 40px;
-
 }
+
+
 
 #weblogo {
     float: left !important;
@@ -111,6 +112,19 @@ nav a {
     margin-left: 5%;
     /*you can use 30px then set media queries for small screen instead of percent*/
     float: left;
+}
+
+
+.BtnPortfolio:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.BtnContact:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 #companylogo {
