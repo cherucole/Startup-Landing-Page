@@ -275,11 +275,13 @@ h4 {
     color: white;
     font-weight: 100;
     text-align: left;
+    font-size: 20px;
     margin-top: 10px;
 }
 
 .card img {
     height: 20em;
+    width: 80% !important;
 }
 
 .card:hover {
