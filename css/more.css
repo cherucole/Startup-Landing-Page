@@ -7,7 +7,7 @@
 /* Style for "Background" */
 body {
     width: 100%;
-    height: 3495px;
+    /* height: 3495px; */
     background: -webkit-linear-gradient(-236.12304494193deg, rgba(48, 207, 208, 255) 0%, rgba(51, 8, 103, 196) 57%, rgba(48, 207, 208, 255) 100%);
     background: -o-linear-gradient(-236.12304494193deg, rgba(48, 207, 208, 255) 0%, rgba(51, 8, 103, 196) 57%, rgba(48, 207, 208, 255) 100%);
     background: -moz-linear-gradient(-236.12304494193deg, rgba(48, 207, 208, 255) 0%, rgba(51, 8, 103, 196) 57%, rgba(48, 207, 208, 255) 100%);
@@ -89,10 +89,9 @@ nav ul {
 }
 
 nav ul li {
-    padding: 0 3 rem;
+    padding: 0 3rem;
     line-height: 8rem;
     animation: slideIn .5s forwards;
-    /* transition: background-color .5s; */
 }
 
 nav ul li :hover::before,
@@ -122,30 +121,26 @@ nav ul li ::after {
     transform-origin: right;
 }
 
-/* .nav-right ul li{
-    border-right: rgba(255, 255, 255, 0.3)
-}
-.nav-right ul li:nth-child(1){
-    border-left: 1px solid rgba(255, 255, 255, 0.3);
-}
-.nav-right ul li:last-child{
-    border-right: none;
-} */
 .nav-right {
-    margin-right: 8rem;
-    /* background-color: red; */
+    margin-right: 6rem;
 }
 
-.button {
+.loginBtn {
+    width: 12rem;
+    margin-right: -2rem;
+    cursor: pointer;
+}
+
+.signupBtn {
     border: 2px solid #ffffff;
     border-radius: 50px;
     width: 12rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
     display: inline-block;
     line-height: 45px;
     text-align: center;
     cursor: pointer;
-  }
+}
 
 @keyframes slideIn {
     from {}
@@ -153,4 +148,95 @@ nav ul li ::after {
     to {
         transform: translateX(0);
     }
+}
+
+.main {
+    position: absolute;
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.hero {
+    height: 80vh;
+    flex: 1;
+}
+
+.avatar {
+    height: 80vh;
+    flex: 1;
+}
+
+.avatar img {
+    width: 50%;
+    margin-left: 10rem;
+}
+
+.description {
+    display: flex;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.description h1 {
+    font-size: 3.5vw;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    text-align: left;
+}
+
+.description p {
+    font-size: 1.6vw;
+    margin-bottom: 4rem;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.chart-item {
+    padding: 4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.chart-img img {
+    width: 40rem;
+    flex: 1;
+}
+
+.item-description {
+    /* background-color: red; */
+    width: 55%;
+}
+
+.chart-item h1 {
+    font-size: 5rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+.chart-item p {
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 1rem 0;
+    /* width: 90%; */
+    text-align: justify;
+
+}
+
+.has-margin-right {
+    margin-right: 5rem;
 }

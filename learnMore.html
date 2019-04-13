@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="css/more.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -25,36 +25,122 @@
         <nav>
             <i class="fas fa-times"></i>
             <div class="logo">
-                    <img  src="img/whitemail.svg" alt="">
+                <img src="img/whitemail.svg" alt="">
                 <h3>Web.ly</h3>
 
             </div>
-            <div class="nav-middle">
+
+            <div class="nav-right">
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Projects</a></li>
-                </ul>
-            </div>
-            <div class="nav-right">
-                <ul>
-                        
-                    <li><a class="button" href="">Login</a></li>
-                    <li><a class="button" href="">Sign up</a></li>
+                    <li><a class="loginBtn" href="">Login</a></li>
+                    <li><a class="signupBtn" href="">Sign up</a></li>
                 </ul>
             </div>
         </nav>
         <div class="main">
             <div class="hero">
-                <h1>Our Web Development Process</h1>
-                <p>Get an insight on the process of web development and get to be involved in the process because we
-                    work with our customers in mind!</p>
+                <div class="description">
+                    <h1>Web Development Process We Use</h1>
+                    <p>Get an insight on the process of web development and get to be involved in the process because we
+                        work with our customers in mind!</p>
+                </div>
             </div>
             <div class="avatar">
-                <img src="img/prototyping.svg" alt="">
+                <img class="heroImage" src="img/prototyping.svg" alt="">
             </div>
         </div>
     </header>
+
+    <div class="container">
+        <div class="chart-item">
+            <div class="chart-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                <img src="img/goal.svg" alt="">
+            </div>
+            <div class="item-description" data-aos="fade-left" data-aos-delay="600">
+                <h1>--Goal Identification</h1>
+                <p>
+                    Collaboration with client and stakeholders to get the end purpose of the website, expectations and
+                    analyse competitors </p>
+            </div>
+        </div>
+        <div class="chart-item">
+            <div class="item-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+                <h1>--Website Planning</h1>
+                <p>
+                    Use of information collected above to plan for the site. This is to determine the content will be on
+                    the website. This is where the product should match the end-user’s needs </p>
+            </div>
+            <div class="chart-img " data-aos="fade-left" data-aos-delay="1200">
+                <img src="img/plan.svg" alt="">
+            </div>
+        </div>
+        <div class="chart-item">
+            <div class="chart-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                <img src="img/design.svg" alt="">
+            </div>
+            <div class="item-description" data-aos="fade-left" data-aos-delay="600">
+                <h1>--Website Design</h1>
+                <p>
+                    Our designers create mock-ups for your web site. This is typically an image of what the web site
+                    will look like. Working with the client, exchanging ideas, until you arrive at the ideal design to
+                    ensure that the final web site will match the needs and taste of the client </p>
+            </div>
+        </div>
+        <div class="chart-item">
+            <div class="item-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+                <h1>--Website Development</h1>
+                <p>
+                    After approval of design, the website design is translated to actual code that makes the website
+                    work. Using tools and frameworks like HTML, Javascript, CSS, Bootstrap, Python(Django), AngularJS
+                </p>
+            </div>
+            <div class="chart-img" data-aos="fade-left" data-aos-delay="1200">
+                <img src="img/011-coding.svg" alt="">
+            </div>
+
+        </div>
+        <div class="chart-item">
+            <div class="chart-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                <img src="img/test.svg" alt="">
+            </div>
+            <div class="item-description" data-aos="fade-left" data-aos-delay="600">
+                <h1>--Website Testing</h1>
+                <p>
+                    Thoroughly test each page to make sure all links are working and that the website loads properly on
+                    all devices and browsers. Ensuring bugs and errors are fixed at this stage </p>
+            </div>
+        </div>
+        <div class="chart-item">
+            <div class="item-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+                <h1>--Website Launch</h1>
+                <p>
+                    Now it’s time for our favourite part of the web design process: When everything has been thoroughly
+                    tested, and clients are happy with the site, it’s time to launch and make it available for use </p>
+            </div>
+            <div class="chart-img " data-aos="fade-left" data-aos-delay="1200">
+                <img src="img/016-launch.svg" alt="">
+            </div>
+
+        </div>
+        <div class="cta">
+            <h3>Contact us to build your website now</h3>
+            <a href="mailto:cherucole94@gmail.com?Subject=Web%20Design%20Enquiry" id="Btnmail"><span> <img id="mail"
+                        src="img/sent-mail.svg" alt=""></span> Email us</a>
+        </div>
+    </div>
+    <footer>
+        <p>©2019 Webly LLC. All rights reserved.</p>
+        <div class="footerPages">
+            <a href="">Home</a>
+            <a href="">Portfolio</a>
+            <a href="">About</a>
+            <a href="">Privacy</a>
+            <a href="mailto:cherucole94@gmail.com?Subject=Web%20Design%20Enquiry" target="_top"">Contact us</a>
+            </div>
+        </footer>
 
 </body>
 
