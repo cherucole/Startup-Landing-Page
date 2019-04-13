@@ -41,6 +41,7 @@ p {
 nav {
     line-height: 100px;
     text-align: right;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 nav a {
@@ -125,6 +126,8 @@ nav a {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     transition: 0.3s;
+    background-color: white;
+    color: #03B2FF;
 }
 
 #companylogo {
