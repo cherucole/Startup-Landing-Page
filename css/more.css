@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for "Background" */
+body {
+    width: 100%;
+    height: 3495px;
+    background: -webkit-linear-gradient(-236.12304494193deg, rgba(48, 207, 208, 255) 0%, rgba(51, 8, 103, 196) 57%, rgba(48, 207, 208, 255) 100%);
+    background: -o-linear-gradient(-236.12304494193deg, rgba(48, 207, 208, 255) 0%, rgba(51, 8, 103, 196) 57%, rgba(48, 207, 208, 255) 100%);
+    background: -moz-linear-gradient(-236.12304494193deg, rgba(48, 207, 208, 255) 0%, rgba(51, 8, 103, 196) 57%, rgba(48, 207, 208, 255) 100%);
+    background: -ms-linear-gradient(-236.12304494193deg, rgba(48, 207, 208, 255) 0%, rgba(51, 8, 103, 196) 57%, rgba(48, 207, 208, 255) 100%);
+    background: linear-gradient(-236.12304494193deg, rgba(48, 207, 208, 255) 0%, rgba(51, 8, 103, 196) 57%, rgba(48, 207, 208, 255) 100%);
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-toggle {
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    display: none;
+    z-index: 999;
+}
+
+.menu-toggle i,
+.fa-times {
+    font-size: 3rem;
+}
+
+.fa-times {
+    display: none !important;
+    cursor: pointer;
+}
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 1000;
+}
+.logo{
+    width: 5rem;
+    box-sizing: content-box;
+    padding-left: 3rem;
+    display: inline;
+}
+.logo img{
+    display: block;
+    width: 50%;
+}
+.logo h3{
+    width: 50%;
+}
+nav ul {
+    height: 8rem;
+    list-style: none;
+    display: flex;
+    font-size: 1.6rem;
+}
+
+nav ul li{
+    padding: 0 3 rem;
+    line-height: 8rem;
+    animation: slideIn .5s forwards;
+    /* transition: background-color .5s; */
+}
+nav ul li a:hover::before,
+nav ul li a:hover::after{
+	transform: scaleX(1);
+}
+
+nav ul li a::before,
+nav ul li a::after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: crimson;
+	left: 0;
+	transform: scaleX(0);
+	transition: all .5s;
+}
+
+nav ul li a::before{
+	top: 0;
+	transform-origin: left;
+}
+
+nav ul li a::after{
+	bottom: 0;
+	transform-origin: right;
+}
+
+@keyframes slideIn {
+	from{
+
+	}
+	to{
+		transform: translateX(0);
+	}
+}
